@@ -116,4 +116,151 @@ body {
   font-size: 20px;
   line-height: 27px;
   text-align: center;
+
+}
+.ourFlats {
+  background-color: #242b33;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.ourFlats-title {
+  margin: 0;
+  margin-bottom: 100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  font-family: 'Playfair Display';
+  color: #d4c17f;
+}
+
+.flats {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.flat {
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(../img/flat.jpg), #D4C17F;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-basis: 45%;
+  margin: 15px;
+  height: 320px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.flat span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  display: block;
+  margin-top: auto;
+}
+.feedback {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../img/feedback-bgr.jpg), #C4C4C4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.feedback-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.feedback-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 535px;
+  flex-basis: 45%;
+  margin-right: 35px;
+}
+.feedback-text h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.feedback-text p {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+.feedback-form {
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  flex-basis: 45%;
+}
+.input {
+  background-color: white;
+  opacity: 0.2;
+  color: #bebebe;
+  font-size: 14px;
+  line-height: 27px;
+  font-family: 'Raleway';
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.inputName {
+  margin-right: 30px;
+  margin-bottom: 40px;
+  padding: 10px;
+
+}
+.inputPhone {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.feedback-form p {
+  color: #e7e7e7;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  width: 45%;
+  text-align: center;
+  margin: 0;
+  margin-right: 25px;
+  flex-basis: 45%;
+}
+.feedback-form button {
+  background-color: #d4c17f;
+  font-family: 'Raleway';
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+  border: none;
+  outline: none;
+  flex-basis: 44%;
 }
