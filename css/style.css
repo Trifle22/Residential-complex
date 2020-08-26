@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Jaffna-semi-bold';
+  src: url(../fonts/PostNoBillsJaffna-SemiBold.woff);
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 70%;
+}
+.first-screen {
+  background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/bgr-first-screen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 74px;
+}
+.header-logo-nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h1 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "Jaffna-semi-bold";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+.logo span {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Raleway';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  margin: 0;
+}
+.header-nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway';
+  margin: 0 10px;
+}
+.header-title {
+  font-family: 'Playfair Display';
+  font-size: 48px;
+  line-height: 64px;
+  color: #d4c17f;
+  max-width: 556px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.mouse-header {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.header-contacts {
+  display: flex;
+  justify-content: space-around;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: 'Raleway';
+}
+.header-contact img {
+  margin-right: 15px;
+}
