@@ -86,3 +86,34 @@ body {
 .header-contact img {
   margin-right: 15px;
 }
+.testimonials {
+  background-color: #242b33;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.testimonials-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.testimonials-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 53px;
+}
+.testimonials-item span {
+  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
