@@ -264,3 +264,47 @@ body {
   outline: none;
   flex-basis: 44%;
 }
+.video {
+  background-color: #242b33;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 180px;
+}
+.video-block {
+  background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url(../img/video-bgr.jpg), #626262;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  transition: all 0.45s ease-in-out;
+}
+.video-block:hover {
+  border-radius: 30px;
+}
+.video-block img {
+  width: 100px;
+  height: 100px;
+}
+.district {
+  background-color: #242b33;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-bottom: 180px;
+}
+.district-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+  margin-bottom: 100px; 
+}
+
