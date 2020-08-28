@@ -374,3 +374,53 @@ body {
 .questions-form button:hover {
   border-radius: 10px;
 }
+.footer {
+  background-color: #2d343c;
+  padding-top: 72px;
+  color: white;
+  padding-bottom: 60px;
+  
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.about-us-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.about-us-links a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;align-items: start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.footer-contacts span {
+  display: block;
+  margin-bottom: 15px;
+} 
+.mail-link {
+  text-decoration: none;
+  color: #D4C17F;
+}
+.contact-img a {
+margin-right: 20px;
+}
