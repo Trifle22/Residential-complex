@@ -10,12 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
   <title>Residential complex</title>
 </head>
 <body>
   <header class="first-screen">
     <div class="container">
-      <div class="header-logo-nav">
+      <div class="header-logo-nav animate__animated animate__fadeInDown">
         <div class="logo">
           <h1 class="logo">HouseVOP</h1>
           <span>ЖИЛОЙ КОМПЛЕКС</span>
@@ -32,7 +33,7 @@
       <h1 class="header-title">
         Жилой комплекс в историческом центре
       </h1>
-      <img src="img/mouse-header.png" alt="mouse-header" class="mouse-header">
+      <img src="img/mouse-header.png" alt="mouse-header" class="mouse-header animate__animated animate__fadeInUp">
       <div class="header-contacts">
         <div class="header-contact">
           <img src="img/placeholder.png" alt="placeholder">
@@ -50,19 +51,19 @@
   <section class="testimonials">
     <div class="container">
     <div class="testimonials-items">
-    <div class="testimonials-item">
+    <div class="testimonials-item animate__animated animate__heartBeat animate__delay-1s wow">
       <img src="img/bench.png" alt="bench">
       <span>Рядом исторические <br> парки и скверы</span>
     </div>
-    <div class="testimonials-item">
+    <div class="testimonials-item animate__animated animate__heartBeat animate__delay-2s wow">
       <img src="img/building.png" alt="building">
       <span>Полностью <br> обустроенный</span>
     </div>
-    <div class="testimonials-item">
+    <div class="testimonials-item animate__animated animate__heartBeat animate__delay-3s wow">
       <img src="img/fountain.png" alt="fountain">
       <span>10 фонтанов <br> на территории</span>
     </div>
-    <div class="testimonials-item">
+    <div class="testimonials-item animate__animated animate__heartBeat animate__delay-4s wow">
       <img src="img/bicycle.png" alt="bicycle">
       <span>6 км <br> велодорожек</span>
     </div>
@@ -75,10 +76,10 @@
     <div class="container">
     <h1 class="ourFlats-title">Наши квартиры</h1>
     <div class="flats">
-      <div class="flat"><span>Лофт - 3 этажа</span></div>
-      <div class="flat"><span>Лофт - 2 этажа</span></div>
-      <div class="flat"><span>Лофт - 3 этажа</span></div>
-      <div class="flat"><span>Лофт - 2 этажа</span></div>
+      <div class="flat wow animate__animated animate__fadeInTopLeft"><span>Лофт - 3 этажа</span></div>
+      <div class="flat wow animate__animated animate__fadeInTopRight"><span>Лофт - 2 этажа</span></div>
+      <div class="flat wow animate__animated animate__fadeInBottomLeft"><span>Лофт - 3 этажа</span></div>
+      <div class="flat wow animate__animated animate__fadeInBottomRight"><span>Лофт - 2 этажа</span></div>
     </div>
   </div>
   </section>
@@ -103,7 +104,7 @@
   <section class="video">
     <div class="video-block">
       <a data-fancybox href="https://www.youtube.com/watch?v=muEYzmnC9jc">
-        <img src="img/play-button.png" alt="play-button" class="play-button">
+        <img src="img/play-button.png" alt="play-button" class="play-button animate__animated animate__pulse wow animate__infinite">
       </a>
     </div>
   </section>
@@ -126,7 +127,7 @@
   <!-- /.questions -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
+      <div class="footer-content animate__animated animate__fadeInUp wow">
       <div class="logo">
         <h1 class="logo">HouseVOP</h1>
         <span>ЖИЛОЙ КОМПЛЕКС</span>
@@ -152,10 +153,10 @@
         <span>Отдел продаж: 10:00 - 20:00</span>
         <span>E-mail: <a href="mailto:vip@housevip.ru" class="mail-link">vip@housevip.ru</a></span>
         <div class="contact-img">
-        <a href="#"><img src="img/youtube.png" alt="youtube"></a>
-        <a href="#"><img src="img/vk.png" alt="vk"></a>          
-        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-        <a href="#"><img src="img/inst.png" alt="instagram"></a>
+        <a href="#"><img src="img/youtube.png" alt="youtube" class="animate__animated animate__fadeInDown wow"></a>
+        <a href="#"><img src="img/vk.png" alt="vk" class="animate__animated animate__fadeInDown wow"></a>          
+        <a href="#"><img src="img/facebook.png" alt="facebook" class="animate__animated animate__fadeInDown wow"></a>
+        <a href="#"><img src="img/inst.png" alt="instagram" class="animate__animated animate__fadeInDown wow"></a>
         </div>
       </div>
     </div>
@@ -163,6 +164,7 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
